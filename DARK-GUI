@@ -24,16 +24,14 @@ loadstring(game:HttpGet("https://pastebin.com/raw/r97d7dS0", true))()
 
 end)
 
-Tab1Section:NewButton("VHub","Created By: Veincx#5315", function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Veincx5315/Created/VHub/Simple",true))()
-
-end)
-
 -- Section2 
 local Tab2Section = Tab2:NewSection("Hubs")
 
 -- Button2 
 Tab2Section:NewButton("Dizzy Hub (Some Games)","Created By: NoobieYeaMan", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dizyhvh/rbx_scripts/main/dizzy_hub/loader.lua"))();
+end)
+
+Tab2Section:NewButton("VHub","Created By Veincx#5315", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Veincx5315/Created/VHub/Simple",true))()
 end)
