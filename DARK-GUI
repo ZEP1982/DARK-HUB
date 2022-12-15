@@ -26,7 +26,7 @@ end)
 
 Tab1Section:NewButton("C00lkidd Reborn","OMG COOLKIDD!1!!1",function()
 
-loadstring(game:GetObjects("rbxassetid://8127297852[1]".Source))()
+loadstring(game:GetObjects("rbxassetid://8127297852")[1].Source)()
 
 end)
 
