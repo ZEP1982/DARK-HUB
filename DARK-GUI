@@ -1,6 +1,8 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+-- The Code Will Be Updated After I Found The Scripts To Exexute.
 
-local Window = Library.CreateLib("Dark GUI","DarkTheme")
+local kavo = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = kavo.CreateLib("Dark GUI","DarkTheme")
 
 local Tab1 = Window:NewTab("ROBLOX DARK GUI")
 
