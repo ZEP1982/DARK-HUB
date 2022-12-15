@@ -4,9 +4,9 @@ local kavo = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/K
 
 local Window = kavo.CreateLib("Dark GUI","DarkTheme")
 
-local Tab1 = Window:NewTab("ROBLOX DARK GUI")
+local Tab1 = Window:NewTab("Roblox Dark Hub")
 
-local Tab1Section = Tab1:NewSection("GUI's")
+local Tab1Section = Tab1:NewSection("GUIs")
 
 Tab1Section:NewButton("INFINITE YIELD","Well, You Know It.", function()
 
@@ -14,13 +14,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/
 
 end)
 
-Tab1Section:NewButton("FLINGER", "Fling Yer Boi", function()
+Tab1Section:NewButton("FLINGER", "Created By: topit", function()
 
 loadstring(game:HttpGet("https://pastebin.com/raw/r97d7dS0", true))()
 
 end)
 
-Tab1Section:NewButton("VHub","Try It. DO IT.", function()
+Tab1Section:NewButton("VHub","Created By: Veincx#5315", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Veincx5315/Created/VHub/Simple",true))()
 
