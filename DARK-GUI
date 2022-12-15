@@ -4,10 +4,14 @@ local kavo = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/K
 
 local Window = kavo.CreateLib("Dark GUI","DarkTheme")
 
+-- Tabs
 local Tab1 = Window:NewTab("Roblox Dark Hub")
+local Tab2 = Window:NewTab("Others Recommend Hub")
 
+-- Sections1
 local Tab1Section = Tab1:NewSection("GUIs")
 
+-- Buttons1
 Tab1Section:NewButton("INFINITE YIELD","Well, You Know It.", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
@@ -24,4 +28,17 @@ Tab1Section:NewButton("VHub","Created By: Veincx#5315", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Veincx5315/Created/VHub/Simple",true))()
 
+end)
+
+-- Section2 
+local Tab2Section = Tab2:NewSection("Hubs")
+
+-- Button2 
+
+Tab2Section:NewButton("Gco FE Hub","Created By: Gco FE Hub", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/eZrStP3U",true))()
+end)
+
+Tab2Section:NewButton("Universal FE Hub","Created By: collorem#4664", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script"))()
 end)
