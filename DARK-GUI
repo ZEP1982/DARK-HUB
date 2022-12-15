@@ -12,7 +12,7 @@ local Tab2 = Window:NewTab("Recommend Hub")
 local Tab1Section = Tab1:NewSection("GUIs")
 
 -- Buttons1
-Tab1Section:NewButton("INFINITE YIELD","Well, You Know It.", function()
+Tab1Section:NewButton("INFINITE YIELD","EdgeIY", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 
