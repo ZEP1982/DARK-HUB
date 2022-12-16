@@ -11,11 +11,54 @@ local Tab2 = Window:NewTab("Recommend Hub")
 -- Sections1
 local Tab1Section = Tab1:NewSection("GUIs")
 
--- Buttons1
-Tab1Section:NewButton("INFINITE YIELD","Created By: EdgeIY", function()
+-- Buttons1 
+
+Tab1Section:NewButton("Infinite Yield","Created By: EdgeIY", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 
+end)
+
+Tab1Section:NewButton("KAT",Created By Gaming Scripter", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/KAT"))() 
+end)
+
+Tab1Section:NewButton("No Scope Arcade", "Created By GamingScripter", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/NoScopeArcade"))() 
+end)
+
+Tab1Section:NewButton("Piano Autoplay", "Created By: MADNESSTEST", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MADNESSTEST/iq8if/main/owodjjb.lua", true))()
+end)
+
+Tab1Section:NewButton("Zombie Attack", "Created By GamingScripter", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Zombie%20Attack"))()
+end)
+
+Tab1Section:NewButton("Field Trip Z","Created By GamingScripter", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/FieldTripZ"))()
+end)
+
+Tab1Section:NewButton("Doors","Created By GamingScripter", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+end)
+
+Tab1Section:NewButton("Rainbow Friend","Created By Sempiller",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Sempiller/RainbowTool/main/Turkish.lua'))();
+end)
+
+Tab1Section;NewButton("Keyboard","Created By advxzivhsjjdhxhsidifvsh", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+Tab1Section:NewButton("Bedwars","Created By: Vodxn", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vodxn/sape/main/Initiate.lua"))()
+
+end)
+
+Tab1Section:NewButton("Prison Life","Created By: XTheMasterX", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife",true))()
 end)
 
 Tab1Section:NewButton("FLINGER", "Created By: topit", function()
