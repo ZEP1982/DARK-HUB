@@ -18,7 +18,7 @@ local Tab1Section = Tab1:NewSection("GUIs")
 
 local Tab2Section = Tab2:NewSection("HUBs")
 
-
+local Tab1Game = Tab1:NewSection("Game GUI")
 
 -- Buttons1 
 
@@ -28,43 +28,43 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/
 
 end)
 
-Tab1Section:NewButton("KAT","Created By Gaming Scripter", function()
+Tab1Game:NewButton("KAT","Created By Gaming Scripter", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/KAT"))() 
 
 end)
 
-Tab1Section:NewButton("No Scope Arcade", "Created By GamingScripter", function()
+Tab1Game:NewButton("No Scope Arcade", "Created By GamingScripter", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/NoScopeArcade"))() 
 
 end)
 
-Tab1Section:NewButton("Piano Autoplay", "Created By: MADNESSTEST", function()
+Tab1Game:NewButton("Piano Autoplay", "Created By: MADNESSTEST", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MADNESSTEST/iq8if/main/owodjjb.lua"))()
 
 end)
 
-Tab1Section:NewButton("Zombie Attack", "Created By GamingScripter", function()
+Tab1Game:NewButton("Zombie Attack", "Created By GamingScripter", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Zombie%20Attack"))()
 
 end)
 
-Tab1Section:NewButton("Field Trip Z","Created By GamingScripter", function()
+Tab1Game:NewButton("Field Trip Z","Created By GamingScripter", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/FieldTripZ"))()
 
 end)
 
-Tab1Section:NewButton("Doors","Created By GamingScripter", function()
+Tab1Game:NewButton("Doors","Created By GamingScripter", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
 
 end)
 
-Tab1Section:NewButton("Rainbow Friend","Created By Sempiller",function()
+Tab1Game:NewButton("Rainbow Friend","Created By Sempiller",function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Sempiller/RainbowTool/main/Turkish.lua"))();
 
@@ -76,13 +76,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifv
 
 end)
 
-Tab1Section:NewButton("Bedwars","Created By: Vodxn", function()
+Tab1Game:NewButton("Bedwars","Created By: Vodxn", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vodxn/sape/main/Initiate.lua"))()
 
 end)
 
-Tab1Section:NewButton("Prison Life","Created By: XTheMasterX", function()
+Tab1Game:NewButton("Prison Life","Created By: XTheMasterX", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife"))()
 
@@ -100,7 +100,7 @@ loadstring(game:GetObjects("rbxassetid://8127297852")[1].Source)()
 
 end)
 
-Tab1Section:NewButton("MM2 Script","Created By Vynixu", function()
+Tab1Game:NewButton("MM2 Script","Created By Vynixu", function()
 
 loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
 
