@@ -45,7 +45,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkra
 end)
 
 Tab1Section:NewButton("Rainbow Friend","Created By Sempiller",function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Sempiller/RainbowTool/main/Turkish.lua'))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Sempiller/RainbowTool/main/Turkish.lua"))();
 end)
 
 Tab1Section;NewButton("Keyboard","Created By advxzivhsjjdhxhsidifvsh", function()
