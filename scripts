@@ -2,7 +2,7 @@
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
-local Window = Library.CreateLib("Dark HUB","DarkTheme")
+local Window = Library.CreateLib("Dark Hub","Synapse")
 
 -- Tabs
 local Tab1 = Window:NewTab("Dark Hub")
@@ -42,6 +42,14 @@ Tab2Section:NewButton("Dizzy Hub (Some Games)","Created By: NoobieYeaMan", funct
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dizyhvh/rbx_scripts/main/dizzy_hub/loader.lua"))();
 end)
 
-Tab2Section:NewButton("VHub","Created By Veincx#5315", function()
+Tab2Section:NewButton("VHub","Created By: Veincx#5315", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Veincx5315/Created/VHub/Simple",true))()
+end)
+
+Tab2Section:NewButton("GameHub","Created By: Kaizen", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/KaiZen/main/GameHub", true))()
+end)
+
+Tab2Section:NewButton("GhostHub","Created By GhostPlayer352", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub"))()
 end)
