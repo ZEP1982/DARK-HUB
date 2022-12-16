@@ -28,12 +28,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkra
 end)
 
 Tab1Section:NewButton("Piano Autoplay", "Created By: MADNESSTEST", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/MADNESSTEST/iq8if/main/owodjjb.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MADNESSTEST/iq8if/main/owodjjb.lua"))()
 end)
 
 Tab1Section:NewButton("Zombie Attack", "Created By GamingScripter", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Zombie%20Attack"))()
 end)
+
 
 Tab1Section:NewButton("Field Trip Z","Created By GamingScripter", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/FieldTripZ"))()
@@ -49,7 +50,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Sempiller/RainbowTool
 end)
 
 Tab1Section:NewButton("Keyboard","Created By advxzivhsjjdhxhsidifvsh", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt"))()
 end)
 
 Tab1Section:NewButton("Bedwars","Created By: Vodxn", function()
