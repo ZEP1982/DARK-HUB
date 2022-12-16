@@ -19,7 +19,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/
 
 end)
 
-Tab1Section:NewButton("KAT",Created By Gaming Scripter", function()
+Tab1Section:NewButton("KAT","Created By Gaming Scripter", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/KAT"))() 
 end)
 
