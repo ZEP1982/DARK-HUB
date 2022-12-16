@@ -10,7 +10,7 @@ local Tab2 = Window:NewTab("Recommend Hub")
 
 -- Sections1
 local Tab1Section = Tab1:NewSection("GUIs")
-
+local Tab2Section = Tab2:NewSection("HUBs")
 -- Buttons1 
 
 Tab1Section:NewButton("Infinite Yield","Created By: EdgeIY", function()
