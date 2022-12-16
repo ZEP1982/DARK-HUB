@@ -10,11 +10,15 @@ local Tab1 = Window:NewTab("Dark Hub")
 
 local Tab2 = Window:NewTab("Recommend Hub")
 
+local Tab3 = Window:NewTab("Credits")
+
 -- Sections1
 
 local Tab1Section = Tab1:NewSection("GUIs")
 
 local Tab2Section = Tab2:NewSection("HUBs")
+
+
 
 -- Buttons1 
 
@@ -138,3 +142,8 @@ loadstring("\103\97\109\101\46\83\116\97\114\116\101\114\71\117\105\58\83\101\11
 
 end)
 
+-- Credits 
+
+local Tab3Section = Tab3:NewSection("ZEP1982 - Coder")
+local Tab3Section = Tab3:NewSection("Sebee JR - Script Provider")
+local Tab3Section = Tab3:NewSection("xHeptc - KavoUI Library Provider")
