@@ -19,7 +19,7 @@ local Tab1Section = Tab4:NewSection("GUIs")
 
 local Tab2Section = Tab2:NewSection("HUBs")
 
-local Tab1Game = Tab1:NewSection("Game GUI")
+local Tab1Game = Tab4:NewSection("Game GUI")
 
 -- Buttons1 
 
