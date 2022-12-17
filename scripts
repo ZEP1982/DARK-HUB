@@ -150,7 +150,7 @@ local Tab3Section = Tab3:NewSection("Sebee JR - Script Provider")
 local Tab3Section = Tab3:NewSection("xHeptc - KavoUI Library Provider")
 
 -- Changelog 
-local Tab4Section = Tab1:NewSection("- Changed Name To SeaHub 
-- Added Piggy Script 
-- Added MM2 Admin Script 
-- Added Changelog Section")
+local Tab4Section = Tab1:NewSection("- Changed Name To SeaHub")
+local Tab4Section = Tab1NewSection("- Added Piggy Script")
+local Tab4Section = Tab1:NewSection("- Added MM2 Admin Script")
+loxal Tab4Section = Tab1:NewSection("- Added Changelog Section")
