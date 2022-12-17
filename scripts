@@ -150,7 +150,7 @@ end)
 -- Credits 
 
 local Tab3Section = Tab3:NewSection("ZEP1982 - Coder")
-local Tab3Section = Tab3:NewSection("Sebee JR - Script Provider")
+local Tab3Section = Tab3:NewSection("RIP_Technoblade/Season2014 - Script Provider")
 local Tab3Section = Tab3:NewSection("xHeptc - KavoUI Library Provider")
 
 -- Changelog 
