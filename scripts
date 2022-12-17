@@ -101,10 +101,14 @@ loadstring(game:GetObjects("rbxassetid://8127297852")[1].Source)()
 
 end)
 
-Tab1Game:NewButton("MM2 Script","Created By Vynixu", function()
+Tab1Game:NewButton("MM2 Vynixu","Created By Vynixu", function()
 
 loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
 
+end)
+
+Tab1Game:NewBurton("MM2 Admin","Created By MarsQQ", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MarsQQ/ScriptHubScripts/master/MM2%20Admin%20Panel"))();
 end)
 
 -- Button2 
