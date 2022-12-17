@@ -107,10 +107,13 @@ loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
 
 end)
 
-Tab1Game:NewBurton("MM2 Admin","Created By MarsQQ", function()
+Tab1Game:NewButton("MM2 Admin","Created By: MarsQQ", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MarsQQ/ScriptHubScripts/master/MM2%20Admin%20Panel"))();
 end)
 
+Tab1Game:NewButton("Piggy","Created By: ZaneTheKing1223", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaneTheKing1223/Piggy-Gui/main/Piggy-Gui"))() 
+end)
 -- Button2 
 
 Tab2Section:NewButton("Dizzy Hub (Some Games)","Created By: NoobieYeaMan", function()
