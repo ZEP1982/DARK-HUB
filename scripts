@@ -6,7 +6,8 @@ local Window = Library.CreateLib("SeaHub","Ocean")
 
 -- Tabs
 
-local Tab1 = Window:NewTab("SeaHub")
+local Tab1 = Window:NewTab("Changelog")
+local Tab4 = Window:NewTab("SeaHub")
 
 local Tab2 = Window:NewTab("Recommend Hub")
 
@@ -14,7 +15,7 @@ local Tab3 = Window:NewTab("Credits")
 
 -- Sections1
 
-local Tab1Section = Tab1:NewSection("GUIs")
+local Tab1Section = Tab4:NewSection("GUIs")
 
 local Tab2Section = Tab2:NewSection("HUBs")
 
@@ -147,3 +148,9 @@ end)
 local Tab3Section = Tab3:NewSection("ZEP1982 - Coder")
 local Tab3Section = Tab3:NewSection("Sebee JR - Script Provider")
 local Tab3Section = Tab3:NewSection("xHeptc - KavoUI Library Provider")
+
+-- Changelog 
+local Tab4Section = Tab1:NewSection("- Changed Name To SeaHub 
+- Added Piggy Script 
+- Added MM2 Admin Script 
+- Added Changelog Section")
