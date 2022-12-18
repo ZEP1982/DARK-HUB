@@ -59,7 +59,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkra
 end)
 
 Tab1Game:NewButton("Da Hood","Created By: NighterEpic", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic"))() 
 end)
 
 Tab1Game:NewButton("Combat Warrior","Created By: IsaaaKK",function()
@@ -95,7 +95,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkra
 end)
 
 Tab1Game:NewButton("Rainbow Friend","Created By: Sempiller",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Sempiller/RainbowTool/main/Turkish.lua"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Sempiller/RainbowTool/main/Turkish.lua"))()
 end)
 
 Tab1Section:NewButton("Keyboard","Created By: advxzivhsjjdhxhsidifvsh", function()
