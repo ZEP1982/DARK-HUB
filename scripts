@@ -78,7 +78,7 @@ Tab1Game:NewButton("BrookHaven","Created By: IceMael7", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))() 
 end)
 
-Tab1Gem:NewButton("Bedwars (No Vape)","No Description",function() 
+Tab1Game:NewButton("Bedwars (No Vape)","No Description",function() 
 loadstring(game:HttpGet("https://cdn.discordapp.com/attachments/1002510858917773352/1002895558790361158/untitled.txt"))() 
 end)
 
