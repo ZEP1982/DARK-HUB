@@ -42,11 +42,11 @@ Tab1Section:NewButton("VR Script","No Description", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/VhNvrjRG"))() 
 end) 
 
-Tab1Game:NewButton("KAT","Created By Gaming Scripter", function()
+Tab1Game:NewButton("KAT","Created By: Gaming Scripter", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/KAT"))() 
 end)
 
-Tab1Game:NewButton("No Scope Arcade", "Created By GamingScripter", function()
+Tab1Game:NewButton("No Scope Arcade", "Created By: GamingScripter", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/NoScopeArcade"))() 
 end)
 
@@ -54,23 +54,51 @@ Tab1Game:NewButton("Piano Autoplay", "Created By: MADNESSTEST", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MADNESSTEST/iq8if/main/owodjjb.lua"))()
 end)
 
-Tab1Game:NewButton("Zombie Attack", "Created By GamingScripter", function()
+Tab1Game:NewButton("Zombie Attack", "Created By: GamingScripter", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Zombie%20Attack"))()
 end)
 
-Tab1Game:NewButton("Field Trip Z","Created By GamingScripter", function()
+Tab1Game:NewButton("Da Hood","Created By: NighterEpic", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))() 
+end)
+
+Tab1Game:NewButton("Combat Warrior","Created By: IsaaaKK",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IsaaaKK/cwhb/main/cw.txt"))() 
+end)
+
+Tab1Game:NewButton("Anime Fighter","Created By: Acsu", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+end)
+
+Tab1Game:NewButton("Bee Swarm","No Description" ,function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/3"))() 
+end)
+
+Tab1Game:NewButton("BrookHaven","Created By: IceMael7", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))() 
+end)
+
+Tab1Gem:NewButton("Bedwars (No Vape)","No Description",function() 
+loadstring(game:HttpGet("https://cdn.discordapp.com/attachments/1002510858917773352/1002895558790361158/untitled.txt"))() 
+end)
+
+Tab1Game:NewButton("PSX", "Created By: Thunder-Z", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"))() 
+end)
+
+Tab1Game:NewButton("Field Trip Z","Created By: GamingScripter", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/FieldTripZ"))()
 end)
 
-Tab1Game:NewButton("Doors","Created By GamingScripter", function()
+Tab1Game:NewButton("Doors","Created By: GamingScripter", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
 end)
 
-Tab1Game:NewButton("Rainbow Friend","Created By Sempiller",function()
+Tab1Game:NewButton("Rainbow Friend","Created By: Sempiller",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Sempiller/RainbowTool/main/Turkish.lua"))();
 end)
 
-Tab1Section:NewButton("Keyboard","Created By advxzivhsjjdhxhsidifvsh", function()
+Tab1Section:NewButton("Keyboard","Created By: advxzivhsjjdhxhsidifvsh", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt"))()
 end)
 
@@ -90,7 +118,7 @@ Tab1Section:NewButton("C00lkidd Reborn","OMG COOLKIDD!1!!1",function()
 loadstring(game:GetObjects("rbxassetid://8127297852")[1].Source)()
 end)
 
-Tab1Game:NewButton("MM2 Vynixu","Created By Vynixu", function()
+Tab1Game:NewButton("MM2 Vynixu","Created By: Vynixu", function()
 loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
 end)
 
