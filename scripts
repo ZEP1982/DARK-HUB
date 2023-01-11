@@ -46,6 +46,14 @@ Tab1Game:NewButton("KAT","Created By: Gaming Scripter", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/KAT"))() 
 end)
 
+Tab1Game:NewButton("Pls Donate","Created By: CF Trail", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/autofarm"))()
+end)
+
+Tab1Game:NewButton("Victory Race","Created By: ProtoRBLX",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ProtoRBLX/Victory-Race-Defeater/main/README.md"))()
+end)
+
 Tab1Game:NewButton("No Scope Arcade", "Created By: GamingScripter", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/NoScopeArcade"))() 
 end)
@@ -78,10 +86,6 @@ Tab1Game:NewButton("BrookHaven","Created By: IceMael7", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))() 
 end)
 
-Tab1Game:NewButton("Bedwars (No Vape)","No Description",function() 
-loadstring(game:HttpGet("https://cdn.discordapp.com/attachments/1002510858917773352/1002895558790361158/untitled.txt"))() 
-end)
-
 Tab1Game:NewButton("PSX", "Created By: Thunder-Z", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"))() 
 end)
@@ -98,12 +102,20 @@ Tab1Game:NewButton("Rainbow Friend","Created By: Sempiller",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Sempiller/RainbowTool/main/Turkish.lua"))()
 end)
 
-Tab1Section:NewButton("Keyboard","Created By: advxzivhsjjdhxhsidifvsh", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt"))()
+Tab1Game:NewButton("Rap Battle","No Description",function()
+loadstring(game:HttpGet("https://dexhub.xyz/loader.lua"))()
+end)
+ 
+Tab1Game:NewButton("Slap Battles","Created By: Dizyhvh",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dizyhvh/slap_battles_gui/main/0.lua%22"))()
 end)
 
-Tab1Game:NewButton("Bedwars","Created By: Vodxn", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/vodxn/sape/main/Initiate.lua"))()
+Tab1Game:NewButton("Break In","Created By: XRoLLu",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XRoLLu/UWU/main/Break-In(Story)-X-Obfuscated.lua"))()
+end)
+
+Tab1Section:NewButton("Keyboard","Created By: advxzivhsjjdhxhsidifvsh", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt"))()
 end)
 
 Tab1Game:NewButton("Prison Life","Created By: XTheMasterX", function()
@@ -136,8 +148,24 @@ Tab2Section:NewButton("Dizzy Hub (Some Games)","Created By: NoobieYeaMan", funct
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dizyhvh/rbx_scripts/main/dizzy_hub/loader.lua"))();
 end)
 
+Tab2Section:NewButton("EZ Hub","No Description",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/debug420/Ez-industries-Launcher-Data/master/Launcher.lua"))()
+end)
+
+Tab2Section:NewButton("Domain Hub","Created By: ShlexSoftWorks",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexsoftworks/Domain/main/source"))()
+end)
+
 Tab2Section:NewButton("VHub","Created By: Veincx#5315", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Veincx5315/Created/VHub/Simple"))()
+end)
+
+Tab2Section:NewButton("Pro Hub","No Description",function()
+loadstring(game:HttpGet("https://cdn.discordapp.com/attachments/922823751127683082/994188489358835752/Protected.lua"))()
+end)
+
+Tab2Section:NewButton("ProtoHub","No Description",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ProtoRBLX/Proto-s-Game-Multi-Game-Hub-v7/main/README.md"))()
 end)
 
 Tab2Section:NewButton("GameHub","Created By: Kaizen", function()
@@ -170,7 +198,5 @@ local Tab3Section = Tab3:NewSection("RIP_Technoblade/Season2014 - Script Provide
 local Tab3Section = Tab3:NewSection("xHeptc - KavoUI Library Provider")
 
 -- Changelog 
-
-local Tab4Section = Tab1:NewSection("- Added B_Genesis")
-
-local Tab4Section = Tab1:NewSection("- Added VR Script")
+local Tab4Section = Tab1:NewSection("- Removed Bedwars Script")
+local Tab4Section = Tab1:NewSection("- Added So Much Script That I Can't Tell You Here.")
