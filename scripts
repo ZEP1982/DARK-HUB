@@ -1,4 +1,4 @@
--- The Code Will Be Updated After I Found The Scripts To Exexute.
+-- The Code Will Be Updated After I Found The Scripts To Excecute.
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
@@ -10,7 +10,6 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 
 	Text = "Created By ZEP1982", -- Required
 
-	Icon = "rbxassetid://11840189373" -- Optional
 
 })
 
@@ -92,6 +91,10 @@ end)
 
 Tab1Game:NewButton("Field Trip Z","Created By: GamingScripter", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/FieldTripZ"))()
+end)
+
+Tab1Game:NewButton("Arsenal","Created By: xMiles_Games", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/J9iWFN9T"))()
 end)
 
 Tab1Game:NewButton("Doors","Created By: GamingScripter", function()
@@ -200,3 +203,4 @@ local Tab3Section = Tab3:NewSection("xHeptc - KavoUI Library Provider")
 -- Changelog 
 local Tab4Section = Tab1:NewSection("- Removed Bedwars Script")
 local Tab4Section = Tab1:NewSection("- Added So Much Script That I Can't Tell You Here.")
+local Tab4Section = Tab1:NewSection("- Added Arsenal Script")
