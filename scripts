@@ -53,6 +53,10 @@ Tab1Game:NewButton("Victory Race","Created By: ProtoRBLX",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ProtoRBLX/Victory-Race-Defeater/main/README.md"))()
 end)
 
+Tab1Section:NewButton("IV Admin","Created By: BloodyBurns", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BloodyBurns/Hexx/main/Iv%20Admin/Admin.lua"))() 
+end)
+
 Tab1Game:NewButton("No Scope Arcade", "Created By: GamingScripter", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/NoScopeArcade"))() 
 end)
@@ -146,6 +150,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaneTheKing1223/Piggy
 end)
 
 -- Button2 
+
+Tab2Section:NewButton("British Hub","Created By: YourLocalNzi", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/YourLocalNzi/Ye/main/BH%20v4%20Fix"))()
+end)
 
 Tab2Section:NewButton("Dizzy Hub (Some Games)","Created By: NoobieYeaMan", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dizyhvh/rbx_scripts/main/dizzy_hub/loader.lua"))();
