@@ -1,6 +1,5 @@
 local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Rayfield/main/source"))()
 
-local S1 = Tab:CreateSection("Test1")
 
 local Window = Rayfield:CreateWindow({Name = "Rayfield Example Window",LoadingTitle = "SeaHub Beta",LoadingSubtitle = "By ZEP1982",
 
