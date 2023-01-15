@@ -1,2 +1,2 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))() 
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))() 
 local Window = OrionLib:MakeWindow({Name = "SeaHub Beta", HidePremium = false, IntroEnabled = true, IntroText = "owo"})
