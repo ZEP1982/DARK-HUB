@@ -330,5 +330,5 @@ game:Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
 
 TabConf:NewSlider("Jump Power", "Jump Power", 1000, 0, function(j)
-game.Players.LocalPlayer.Character.Humanoid.JumpPower = j 
+game:Players.LocalPlayer.Character.Humanoid.JumpPower = j 
 end)
