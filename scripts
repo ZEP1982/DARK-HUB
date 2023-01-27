@@ -136,7 +136,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/
 end) 
 
 Tab1Section:NewButton("Backdoor","Created By L1ghtningBolt", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/L1ghtningBolt/FraktureSS/master/unobfuscated.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/L1ghtingBolt/FraktureSS/master/unobfuscated.lua"))()
 end)
 
 Tab1Section:NewButton("Fly GUI", "No Description", function()
