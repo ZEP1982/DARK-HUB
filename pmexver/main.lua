@@ -223,7 +223,7 @@ end)
 
 local Tab3Section = Tab3:NewSection("ZEP1982 - Coder")
 
-local Tab3Section = Tab3:NewSection("PracticeMedicine - PMEX Dev, Modifed all of the stuff, GitHub contributor")
+local Tab3Section = Tab3:NewSection("PracticeMedicine - GUI Modifier, GitHub contributor")
 
 local Tab3Section = Tab3:NewSection("xHeptc - KavoUI Library Provider")
 
