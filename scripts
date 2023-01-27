@@ -117,6 +117,8 @@ local Tab1 = Window:NewTab("Changelog")
 
 local Tab4 = Window:NewTab("SeaHub")
 
+Local Conf = Window:NewTab("Client Setting")
+
 local Tab2 = Window:NewTab("Recommend Hub")
 
 local Tab3 = Window:NewTab("Credits")
@@ -126,6 +128,8 @@ local Tab3 = Window:NewTab("Credits")
 local Tab1Section = Tab4:NewSection("GUIs")
 
 local Tab2Section = Tab2:NewSection("HUBs")
+
+local TabConf = Conf:NewSection("Player Configuration")
 
 local Tab1Game = Tab4:NewSection("Game GUI")
 
@@ -318,3 +322,13 @@ local Tab3Section = Tab3:NewSection("xHeptc - KavoUI Library Provider")
  
 local Tab4Section = Tab1:NewSection("- Added Backdoor Script")
 local Tab4Section = Tab1:NewSection("- Added Friend Join Notification")
+
+-- Conf 
+
+TabConf:NewSlider("Walk Speed","Walk Speed", 500, 0, function(s)
+game:Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+TabConf:NewSlider("Jump Power", "Jump Power", 1000, 0, function(j)
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = j 
+end)
