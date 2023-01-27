@@ -22,7 +22,7 @@ local Tab1 = Window:NewTab("Changelog")
 
 local Tab4 = Window:NewTab("SeaHub")
 
-Local Conf = Window:NewTab("Client Setting")
+local Conf = Window:NewTab("Client Setting")
 
 local Tab2 = Window:NewTab("Recommend Hub")
 
