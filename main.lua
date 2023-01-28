@@ -256,7 +256,8 @@ end)
 local Vis = TabVis:NewSection("Visuals - RTX")
 
 Vis:NewButton("RTX", "Inject RTX", function()
-		
+loadstring(game:HttpGet("https://pastebin.com/raw/beJhkj3m"))()
+end)
 -- Friend Join 
 		
 
