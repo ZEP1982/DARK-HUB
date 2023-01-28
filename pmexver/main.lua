@@ -30,7 +30,7 @@ local Conf = Window:NewTab("Client Setting")
 
 local Tab2 = Window:NewTab("Recommended Hub")
 
-local TabVis = Window:NewTab("Visuals")
+local TabVis = Window:NewTab("Visual")
 
 local Tab3 = Window:NewTab("Credits")
 
