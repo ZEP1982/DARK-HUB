@@ -9,7 +9,7 @@ local Window = Rayfield:CreateWindow({Name = "Rayfield Example Window",LoadingTi
 
       FolderName = nil, -- Create a custom folder for your hub/game
 
-      FileName = "SeaHub"
+      FileName = "SeaHub Beta"
 
    },
 
@@ -17,7 +17,7 @@ local Window = Rayfield:CreateWindow({Name = "Rayfield Example Window",LoadingTi
 
       Enabled = false,
 
-      Invite = "ABCD", -- The Discord invite code, do not include discord.gg/
+      Invite = "nkTCzu9fEp", -- The Discord invite code, do not include discord.gg/
 
       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
 
