@@ -1,13 +1,14 @@
+-- Mount RayField Library
 local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Rayfield/main/source"))()
 
 
-local Window = Rayfield:CreateWindow({Name = "Rayfield Example Window",LoadingTitle = "SeaHub Beta",LoadingSubtitle = "By ZEP1982",
+local Window = Rayfield:CreateWindow({Name = "SeaHub Beta",LoadingTitle = "SeaHub Beta",LoadingSubtitle = "By ZEP1982, Modified by PracticeMedicine",
 
    ConfigurationSaving = {
 
       Enabled = true,
 
-      FolderName = nil, -- Create a custom folder for your hub/game
+      FolderName = pmsdata, -- Create a custom folder for your hub/game
 
       FileName = "SeaHub Beta"
 
@@ -27,11 +28,11 @@ local Window = Rayfield:CreateWindow({Name = "Rayfield Example Window",LoadingTi
 
    KeySettings = {
 
-      Title = "Sirius Hub",
+      Title = "SeaHub Beta",
 
       Subtitle = "Key System",
 
-      Note = "Join the discord (discord.gg/sirius)",
+      Note = "Join the discord (discord.gg/nkTCzu9fEp)",
 
       FileName = "SiriusKey",
 
@@ -39,12 +40,12 @@ local Window = Rayfield:CreateWindow({Name = "Rayfield Example Window",LoadingTi
 
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
 
-      Key = "Hello"
+      Key = "shbeta"
 
    }
 
 })
 
-local Tab = Window:CreateTab("Owo", 4483362458)
+local Tab = Window:CreateTab("Test", 4483362458)
 
 local Section = Tab:CreateSection("Test")
