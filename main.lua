@@ -26,6 +26,8 @@ local Conf = Window:NewTab("Client Setting")
 
 local Tab2 = Window:NewTab("Recommend Hub")
 
+local TabVis = Window:NewTab("Visual")
+
 local Tab3 = Window:NewTab("Credits")
 
 -- Sections1
@@ -249,7 +251,14 @@ local p = game:GetService("Players").LocalPlayer
 ts:Teleport(game.PlaceId, p)
 end)
 
+-- Visual 
+
+local Vis = TabVis:NewSection("Visuals - RTX")
+
+Vis:NewButton("RTX", "Inject RTX", function()
+		
 -- Friend Join 
+		
 
 local StarterGui = game:GetService("StarterGui")
 
