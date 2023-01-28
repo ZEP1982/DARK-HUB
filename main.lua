@@ -1,7 +1,7 @@
 -- The Code Will Be Updated After I Found The Scripts To Add
  
 
--- KavoUI 
+-- Mount KavoUI library
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
@@ -221,7 +221,7 @@ local Tab3Section = Tab3:NewSection("ZEP1982 - Coder")
 
 local Tab3Section = Tab3:NewSection("RIP_Technoblade/Season2014 - Script Provider")
 
-local Tab3Section = Tab3:NewSection("PracticeMedicine - PMEX Dev, GitHub contributor")
+local Tab3Section = Tab3:NewSection("PracticeMedicine - GUI Modifier, GitHub contributor")
 
 local Tab3Section = Tab3:NewSection("xHeptc - KavoUI Library Provider")
 
