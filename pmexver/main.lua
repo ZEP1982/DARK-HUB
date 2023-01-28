@@ -9,7 +9,7 @@
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
-local Window = Library.CreateLib("SeaHub","BloodTheme")
+local Window = Library.CreateLib("SeaHub | PMEX","BloodTheme")
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
 
