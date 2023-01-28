@@ -242,6 +242,18 @@ end)
 
 TabConf:NewSlider("Jump Power", "Jump Power", 1000, 0, function(j)
 game.Players.LocalPlayer.Character.Humanoid.JumpPower = j 
+end) 
+
+local TabRej = Conf:NewSection("Rejoin")
+
+TabRej:NewButton("Rejoin","Rejoin The Same Server", function()
+
+local ts = game:GetService("TeleportService")
+
+local p = game:GetService("Players").LocalPlayer 
+
+ts:Teleport(game.PlaceId, p)
+
 end)
 
 -- Friend Join 
