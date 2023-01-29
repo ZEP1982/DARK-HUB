@@ -4,10 +4,23 @@ local Window = Library.CreateLib("SeaHub","Ocean")
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
 
-	Title = "Executed SeaHub", -- Required
+	Title = "Executed Race Clicker Script", -- Required
 
-	Text = "Created By ZEP1982", -- Required
+	Text = "Created By SeaTeam", -- Required
 
 })
 
-local T1 = Window:NewWindow
+-- Tab 
+
+local T1 = Window:NewTab("Race Clicker")
+
+-- Section 
+
+local T11 = T1:NewSection("Race Clicker")
+
+-- TextBox 
+
+T11:NewTextBox("Speed","Player Speed", function(s)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
