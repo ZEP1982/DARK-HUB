@@ -1,0 +1,13 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+
+local Window = Library.CreateLib("SeaHub","Ocean")
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+
+	Title = "Executed SeaHub", -- Required
+
+	Text = "Created By ZEP1982", -- Required
+
+})
+
+local T1 = Window:NewWindow
