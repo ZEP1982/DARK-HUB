@@ -46,13 +46,13 @@ local Window = Rayfield:CreateWindow({Name = "SeaHub Beta",LoadingTitle = "SeaHu
 
 })
 
-local Tab = Window:CreateTab("Test", 4483362458)
+local T1 = Window:CreateTab("Own Made Scripts", 4483362458)
 
-local Section = Tab:CreateSection("Test")
+local S1 = Tab:CreateSection("SeaHub")
 
-local Button = Tab:CreateButton({
+local B11 = Tab:CreateButton({
 
-   Name = "Button Example",
+   Name = "SeaHub",
 
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/ZEP1982/sea-hub/main/main.lua"))()
