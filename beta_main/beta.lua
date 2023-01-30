@@ -48,9 +48,9 @@ local Window = Rayfield:CreateWindow({Name = "SeaHub Beta",LoadingTitle = "SeaHu
 
 local Tab1 = Window:CreateTab("Own Made Scripts", 4483362458)
 
-local S1 = Tab1:CreateSection("SeaHub")
+local Section = Tab1:CreateSection("SeaHub")
 
-local B11 = Tab1:CreateButton({
+local Button1 = Tab1:CreateButton({
 
    Name = "SeaHub",
 
