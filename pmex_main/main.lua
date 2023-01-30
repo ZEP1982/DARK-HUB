@@ -34,6 +34,8 @@ local TabVis = Window:NewTab("Visual")
 
 local Tab3 = Window:NewTab("Credits")
 
+local Tab3a = Window:NewTab("PMEX Credits")
+
 -- Sections1
 
 local Tab1Section = Tab4:NewSection("GUIs")
@@ -228,6 +230,10 @@ local Tab3Section = Tab3:NewSection("ZEP1982 - Coder")
 local Tab3Section = Tab3:NewSection("PracticeMedicine - GUI Modifier, GitHub contributor")
 
 local Tab3Section = Tab3:NewSection("xHeptc - KavoUI Library Provider")
+
+-- PMEX Credits (Tab3a)
+
+local Tab3aSection = Tab3a:NewSection("PracticeMedicine - LD, CODE, UI")
 
 -- Changelog 
  
