@@ -55,7 +55,7 @@ local Button = Tab:CreateButton({
    Name = "Button Example",
 
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/main/main.lua"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ZEP1982/sea-hub/main/main.lua"))()
    end,
 
 })
