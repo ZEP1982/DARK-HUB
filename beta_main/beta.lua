@@ -60,10 +60,10 @@ local Button1 = Tab1:CreateButton({
 
 })
 
-local Tab2 = Window:CreateTab("Scripts")
+local Tab2 = Window:CreateTab("Scripts", 4483362458)
 local Section2 = Tab2:CreateSection("Scripts")
 
-local Button2 = Tab1:CreateButton({
+local Button2 = Tab2:CreateButton({
       Name = "AntiFling"
       Callback = function()
          local Players = game:GetService("Players")
