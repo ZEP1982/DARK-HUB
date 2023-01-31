@@ -4,6 +4,9 @@
     Please join our discord server
 ]]
  
+-- Hub data
+local PMSDir = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZEP1982/sea-hub/pmex_main/content/pmsconf.lua"))()
+
 
 -- Mount all of the stuff here. 
 
