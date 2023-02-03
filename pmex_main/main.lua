@@ -19,9 +19,6 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 
 })
 
--- Hub data
-local PMSDir = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZEP1982/sea-hub/main/pmex_main/content/pmsconf.lua"))()
-
 -- Tabs
 
 local Tab1 = Window:NewTab("Changelog")
@@ -47,6 +44,9 @@ local Tab2Section = Tab2:NewSection("GUI HUBs")
 local TabConf = Conf:NewSection("Player Configuration")
 
 local Tab1Game = Tab4:NewSection("Game GUI")
+
+-- Hub data
+local PMSDir = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZEP1982/sea-hub/main/pmex_main/content/pmsconf.lua"))()
 
 -- Buttons1 
 
