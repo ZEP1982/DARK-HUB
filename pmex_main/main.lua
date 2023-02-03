@@ -4,10 +4,6 @@
     Please join our discord server
 ]]
  
--- Hub data
-local PMSDir = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZEP1982/sea-hub/main/pmex_main/content/pmsconf.lua"))()
-
-
 -- Mount all of the stuff here. 
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
@@ -22,6 +18,9 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 
 
 })
+
+-- Hub data
+local PMSDir = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZEP1982/sea-hub/main/pmex_main/content/pmsconf.lua"))()
 
 -- Tabs
 
