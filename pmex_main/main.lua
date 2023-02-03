@@ -5,7 +5,7 @@
 ]]
  
 -- Hub data
-local PMSDir = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZEP1982/sea-hub/pmex_main/content/pmsconf.lua"))()
+local PMSDir = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZEP1982/sea-hub/main/pmex_main/content/pmsconf.lua"))()
 
 
 -- Mount all of the stuff here. 
