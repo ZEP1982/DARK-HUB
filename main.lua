@@ -50,8 +50,8 @@ Tab1Section:NewButton("Backdoor","Created By: L1ghtningBolt", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/L1ghtingBolt/FraktureSS/master/unobfuscated.lua"))()
 end)
 
-Tab1Section:NewButton("RemoteSpy","Created By: 786", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/786/SimpleSpy/main/SimpleSpySource.lua"))()
+Tab1Section:NewButton("RemoteSpy","Created By: 78n", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
 end)
 
 Tab1Section:NewButton("Fly GUI", "No Description", function()
