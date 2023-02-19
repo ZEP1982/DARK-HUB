@@ -46,7 +46,7 @@ local TabConf = Conf:NewSection("Player Configuration")
 local Tab1Game = Tab4:NewSection("Game GUI")
 
 -- Hub data
-local PMSDir = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZEP1982/sea-hub/main/pmex_main/content/pmsconf.lua"))()
+-- wtf?
 
 -- Buttons1 
 
