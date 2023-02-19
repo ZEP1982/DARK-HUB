@@ -4,7 +4,6 @@
     Please join our discord server
 ]]
  
-
 -- Mount all of the stuff here. 
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
@@ -34,6 +33,8 @@ local TabVis = Window:NewTab("Visual")
 
 local Tab3 = Window:NewTab("Credits")
 
+local Tab3a = Window:NewTab("PMEX Credits")
+
 -- Sections1
 
 local Tab1Section = Tab4:NewSection("GUIs")
@@ -43,6 +44,9 @@ local Tab2Section = Tab2:NewSection("GUI HUBs")
 local TabConf = Conf:NewSection("Player Configuration")
 
 local Tab1Game = Tab4:NewSection("Game GUI")
+
+-- Hub data
+local PMSDir = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZEP1982/sea-hub/main/pmex_main/content/pmsconf.lua"))()
 
 -- Buttons1 
 
@@ -228,6 +232,10 @@ local Tab3Section = Tab3:NewSection("ZEP1982 - Coder")
 local Tab3Section = Tab3:NewSection("PracticeMedicine - GUI Modifier, GitHub contributor")
 
 local Tab3Section = Tab3:NewSection("xHeptc - KavoUI Library Provider")
+
+-- PMEX Credits (Tab3a)
+
+local Tab3aSection = Tab3a:NewSection("PracticeMedicine - LD, CODE, UI")
 
 -- Changelog 
  
