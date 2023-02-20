@@ -63,6 +63,7 @@ Number1.TextSize = 14.000
 Number1.TextWrapped = false
 Number1.MouseButton1Down:connect(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ZEP1982/sea-hub/main/launcher_main/main.lua"))()
+        ScreenGui:Destroy()
 end)
 
 UICorner_2.Parent = Number1
