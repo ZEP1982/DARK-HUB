@@ -56,15 +56,56 @@ Number1.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 Number1.Position = UDim2.new(0.136842102, 0, 0.705641031, 0)
 Number1.Size = UDim2.new(0, 200, 0, 29)
 Number1.Font = Enum.Font.Cartoon
-Number1.Text = "LAUNCH THE GAME"
+Number1.Text = "LAUNCH"
 Number1.TextColor3 = Color3.fromRGB(255, 255, 255)
 Number1.TextScaled = true
 Number1.TextSize = 14.000
 Number1.TextWrapped = false
 Number1.MouseButton1Down:connect(function()
 ScreenGui:Destroy()
+local Key = "KeyPlaceHolder"
+
+local filename = "shkey"
+
+function KeyCheck()
+
+local HttpService = game:GetSevice("HttpService")
+
+if readfile(filename) == Key then
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ZEP1982/sea-hub/main/launcher_main/main.lua"))()
 
+else
+
+print("Invalid Key")
+
+end
+
+end
+
+function KFWrite()
+
+local json
+
+local HttpService = game:GetService("HttpService")
+
+json = HttpService:JSONEncode(Key)
+
+writefile(filename, json)
+
+end
+
+if (readfile and isfile and isfile(filename)) then
+
+KeyCheck()
+
+else
+
+if (writefile) then
+
+KFWrite()
+
+end
 end)
 
 UICorner_2.Parent = Number1
