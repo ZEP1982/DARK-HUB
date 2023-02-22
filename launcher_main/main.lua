@@ -30,6 +30,7 @@ local TabVis = Window:NewTab("Visual")
 
 local Tab3 = Window:NewTab("Credits")
 
+
 -- Sections1
 
 local Tab1Section = Tab4:NewSection("GUIs")
@@ -37,6 +38,7 @@ local Tab1Section = Tab4:NewSection("GUIs")
 local Tab2Section = Tab2:NewSection("HUBs")
 
 local TabConf = Conf:NewSection("Player Configuration")
+
 
 local Tab1Game = Tab4:NewSection("Game GUI")
 
@@ -237,6 +239,14 @@ local Tab4Section = Tab1:NewSection("- Added Backdoor Script")
 local Tab4Section = Tab1:NewSection("- Added Friend Join Notification")
 
 -- Conf 
+
+TabConf:NewButton("Reset Character","?", function()
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
+end)
+
+TabConf:NewButton("Self Kick","?", function()
+game.Players.LocalPlayer:Kick("Player Requested Kick.")
+end)
 
 TabConf:NewSlider("Walk Speed","Walk Speed", 500, 0, function(s)
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
