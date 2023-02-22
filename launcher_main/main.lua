@@ -18,7 +18,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 
 -- Tabs
 
-local Tab1 = Window:NewTab("Changelog")
+local TabHome = Window:NewTab("Home")
 
 local Tab4 = Window:NewTab("SeaHub")
 
@@ -30,6 +30,15 @@ local TabVis = Window:NewTab("Visual")
 
 local Tab3 = Window:NewTab("Credits")
 
+
+-- Home 
+local TabHomeSP = TabHome:NewSection("Hello "..game.Players.LocalPlayer.Name.."!")
+local TabHomeSC = TabHome:NewSection("Recent Update\n - Removed Changelog Tab\n - Added Visuals And Player Config\n - Added Home Tab")
+local TabHomeSD = TabHome:NewSection("Discord Server Invite Link")
+
+TabHomeSD:NewButton("Copy Discord Server Link", "?", function()
+setclipboard("https://discord.gg/cY82qgp6vT")
+end)
 
 -- Sections1
 
@@ -233,10 +242,6 @@ local Tab3Section = Tab3:NewSection("PracticeMedicine - GUI Modifier, GitHub con
 
 local Tab3Section = Tab3:NewSection("xHeptc - KavoUI Library Provider")
 
--- Changelog 
- 
-local Tab4Section = Tab1:NewSection("- Added Backdoor Script")
-local Tab4Section = Tab1:NewSection("- Added Friend Join Notification")
 
 -- Conf 
 
