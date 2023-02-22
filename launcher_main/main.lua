@@ -33,7 +33,10 @@ local Tab3 = Window:NewTab("Credits")
 
 -- Home 
 local TabHomeSP = TabHome:NewSection("Hello "..game.Players.LocalPlayer.Name.."!")
-local TabHomeSC = TabHome:NewSection("Recent Update\n - Removed Changelog Tab\n - Added Visuals And Player Config\n - Added Home Tab")
+local TabHomeSC = TabHome:NewSection("Recent Update:")
+local TabHomeSC = TabHome:NewSection("- Removed Changelog Tab")
+local TabHomeSC = TabHome:NewSection("- Added Visuals And Player Config")
+local TabHomeSC = TabHome:NewSection("- Added Home Tab")
 local TabHomeSD = TabHome:NewSection("Discord Server Invite Link")
 
 TabHomeSD:NewButton("Copy Discord Server Link", "?", function()
