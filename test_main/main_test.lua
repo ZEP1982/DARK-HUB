@@ -18,7 +18,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 
 -- Tabs
 
-local Tab1 = Window:NewTab("Changelog")
+local Tab1 = Window:NewTab("Test")
 
 local Tab4 = Window:NewTab("SeaHub")
 
@@ -233,9 +233,45 @@ local Tab3Section = Tab3:NewSection("xHeptc - KavoUI Library Provider")
 
 -- Changelog 
  
-local Tab4Section = Tab1:NewSection("- Added Backdoor Script")
-local Tab4Section = Tab1:NewSection("- Added Friend Join Notification")
+ 
 
+local SeSHS = Tab1:NewSection("Sea Scripts")
+
+SecSHS:NewButton("SH Admin","Created By ZEP1982 And PracticeMedicine", function()
+
+if SHAL == false then
+
+SHAL = true
+
+function AC()
+
+local event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
+
+event.OnMessageDoneFiltering.OnClientEvent:Connect(function(object)
+
+if object.FromSpeaker == game.Players.LocalPlayer.Name then
+
+if object.Message == ".seahub" then
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZEP1982/sea-hub/main/launcher_main/main.lua"))()
+
+end
+
+end
+
+end)
+
+end
+
+AC()
+
+else
+
+print("Already Launched!")
+
+end
+
+end)
 -- Conf 
 
 TabConf:NewSlider("Walk Speed","Walk Speed", 500, 0, function(s)
