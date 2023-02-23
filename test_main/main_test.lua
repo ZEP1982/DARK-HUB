@@ -235,7 +235,7 @@ local Tab3Section = Tab3:NewSection("xHeptc - KavoUI Library Provider")
  
  
 
-local SeSHS = Tab1:NewSection("Sea Scripts")
+local SecSHS = Tab1:NewSection("Sea Scripts")
 
 SecSHS:NewButton("SH Admin","Created By ZEP1982 And PracticeMedicine", function()
 
