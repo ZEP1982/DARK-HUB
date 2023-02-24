@@ -17,7 +17,7 @@ local MinimizeButton = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
 local MinimizeButtonS = Instance.new("TextButton")
 
-ScreenGui.Name = "SeaHub Key System"
+ScreenGui.Name = "SeaHubKeySystem"
 ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 ScreenGui.ResetOnSpawn = false
