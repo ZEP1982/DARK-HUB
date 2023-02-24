@@ -1,4 +1,10 @@
--- FPS Counter 
+-- FPS Counter
+
+
+print(""{FPSC}"")
+
+if FPSC == true
+FPSC == false
 repeat wait() until game:isLoaded() wait(2)
 local ScreenGui = Instance.new("ScreenGui")
 local FPS = Instance.new("TextLabel")
@@ -23,6 +29,8 @@ local RunService = game:GetService("RunService")
 RunService.RenderStepped:Connect(function(frame)
       script.Parent.Text = ("FPS:"..math.round(1/frame))
       end)
+end
+
 -- Mount RayField Library
 local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Rayfield/main/source"))()
 
