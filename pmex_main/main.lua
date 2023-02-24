@@ -2,7 +2,7 @@
     SH PMEX
     This is an PMEX version of SeaHub, if your willing to use the official script
     Please join our discord server
-]]
+--]]
  
 -- Mount all of the stuff here. 
 
