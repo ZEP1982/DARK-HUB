@@ -16,6 +16,15 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 
 })
 
+game:GetService("StarterGui"):SetCore("SendNotification",{
+
+	Title = "New Executor", -- Required
+
+	Text = "Do You Want To Execute Arceus X?", -- Required
+
+
+
+})
 -- Tabs
 
 local TabHome = Window:NewTab("Home")
