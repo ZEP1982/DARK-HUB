@@ -135,7 +135,7 @@ end,
 
 })
 
-local RFB = RFT:CreateButton({
+local RFB = RFT1:CreateButton({
 
 Name = "Copy GameId: "..game.JobId,
 
