@@ -137,7 +137,7 @@ end,
 
 local RFB = RFT1:CreateButton({
 
-Name = "Copy GameId: "..game.JobId,
+Name = "Copy GameId: "..game.PlaceId,
 
 Callback = function()
 
