@@ -179,6 +179,23 @@ end,
 
 Hide()
 
+-- CHARACTER
+
+local RFT3 = RF:CreateTab("Character")
+local RFC3 = RFT3:CreateSection("Character")
+
+-- CHARACTER SETTINGS
+
+local RFS = RFT3:CreateSlider({
+      Name = "WalkSpeed",
+      Range = {0, 200},
+      Increment = 10,
+      CurrentValue = 16,
+      Flag = "WalkSpeed",
+      Callback = function(ws)
+         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = ws
+         end,
+      })
 
 
 -- button
