@@ -5,11 +5,11 @@
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
-local Window = Library.CreateLib("SeaHub","Ocean")
+local Window = Library.CreateLib("DeadHub","Ocean")
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
 
-	Title = "Executed SeaHub", -- Required
+	Title = "Executed DeadHub", -- Required
 
 	Text = "Created By ZEP1982", -- Required
 
@@ -35,6 +35,7 @@ local Tab3 = Window:NewTab("Credits")
 -- Home 
 local TabHomeSP = TabHome:NewSection("Hello "..game.Players.LocalPlayer.Name.."!")
 local TabHomeSC = TabHome:NewSection("Recent Update:")
+local TabHomeSC = TabHome:NewSection("- You know what I mean.")
 local TabHomeSC = TabHome:NewSection("- Removed Changelog Tab")
 local TabHomeSC = TabHome:NewSection("- Added Visuals And Player Config")
 local TabHomeSC = TabHome:NewSection("- Added Home Tab")
