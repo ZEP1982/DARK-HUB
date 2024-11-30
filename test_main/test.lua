@@ -69,7 +69,7 @@ local filename = "shkey"
 
 function KeyCheck()
 
-local HttpService = game:GetSevice("HttpService")
+local HttpService = game:GetService("HttpService")
 
 if readfile(filename) == Key then
 
