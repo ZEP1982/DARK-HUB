@@ -3,7 +3,7 @@
 
 -- Mount KavoUI library
 
-local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/NICKISBAD/Nick-s-Modded-KAVO-Lib/main/Nick'sModdedKavoLib.lua"))()
 
 local Window = Library.CreateLib("DeadHub","Ocean")
 
