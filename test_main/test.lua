@@ -126,7 +126,6 @@ Number3.TextWrapped = true
 Number3.TextXAlignment = Enum.TextXAlignment.Left
 Number3.TextYAlignment = Enum.TextYAlignment.Top
 Number3.ClearTextOnFocus = false
-Number3.ScanText = "KeyPlaceHolder"
 UICorner_4.Parent = Number3
 
 Tip.Name = "Tip"
